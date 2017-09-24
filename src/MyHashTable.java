@@ -2,9 +2,15 @@ import java.text.*;
 import java.util.*;
 
 public class MyHashTable {
-
-   public static void main(String args[]) throws ParseException {
-      // Create a hash map
+  MyHashTable()
+  {
+	  
+  };
+  
+  public void TestCase1() throws ParseException
+  {
+	  
+	// Create a hash map
       Hashtable balance = new Hashtable();
       Hashtable StudentRecord = new Hashtable<String, Student>();
       Enumeration names;
@@ -34,5 +40,5 @@ public class MyHashTable {
       bal = ((Double)balance.get("Zara")).doubleValue();
       balance.put("Zara", new Double(bal + 1000));
       System.out.println("Zara's new balance: " + balance.get("Zara"));
-   }
+  }
 }
