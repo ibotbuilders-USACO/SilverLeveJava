@@ -14,7 +14,7 @@ public class helpcross {
 		PrintWriter out = new PrintWriter(file);
 		StringTokenizer st = new StringTokenizer(f.readLine());
 		 int numChick = Integer.parseInt(st.nextToken()), numCow = Integer.parseInt(st.nextToken()), i, j=0, high =0;
-		int[] chickTime = new int[numChick];
+		 int[] chickTime = new int[numChick];
 		int[] startCow = new int[numCow];
 		int[] endCow = new int[numCow];
 		Object[] dummy;
