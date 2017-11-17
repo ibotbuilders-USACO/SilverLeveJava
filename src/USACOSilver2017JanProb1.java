@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
 
 public class USACOSilver2017JanProb1 {
 	int nCow;
-	int Tmax;
+	int Tmax; 
 	int [] timeCows;
 	int minStageSize;
 	

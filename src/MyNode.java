@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MyNode<T> {
-		//data
+		//data 
 		private T Data;
 		private MyNode<T> Parent;
 		private List<MyNode<T>> ChildList;

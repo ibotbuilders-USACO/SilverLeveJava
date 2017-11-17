@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
 public class USACO2017FebSilver{
 	int [] Chickens;
 	DataPair [] Cows;
-	int NChicken;
+	int NChicken; 
 	int Ncows;
 	int total;
 	//input from file

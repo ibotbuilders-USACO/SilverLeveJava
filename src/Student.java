@@ -4,7 +4,7 @@ public class Student {
 	public String LastName, FirstName;
 	private Date Birthday;
 	
-	Student(){
+	Student(){ 
 		LastName = FirstName = "NA";
 		Birthday = new Date();
 	};

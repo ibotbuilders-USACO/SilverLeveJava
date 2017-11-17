@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 
 public class USACOSilver2015DecProb2WinCard {
 	// total # card
-	int N;
+	int N; 
 	int [] Cards;
 	PriorityQueue<Integer> Bessie;
 	PriorityQueue<Integer> Elsie;

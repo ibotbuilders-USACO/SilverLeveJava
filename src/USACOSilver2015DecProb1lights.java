@@ -11,7 +11,7 @@ import javax.swing.tree.TreeNode;
 import javafx.util.Pair;
 
 public class USACOSilver2015DecProb1lights {
-	//N -- N x N rooms
+	//N -- N x N rooms 
 	// M -- M pair of rooms to indicate room A--> room B, which Room A has a switch for Room B 
 	int N, M;
 	boolean Changed = true; // true means one node is added to tree, false no new node is added

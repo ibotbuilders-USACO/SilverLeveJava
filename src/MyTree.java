@@ -2,7 +2,7 @@ import java.util.List;
 
 
 public class MyTree<T>{
-	//root
+	//root 
 	private MyNode<T> root;
 	
 	//constructor

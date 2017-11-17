@@ -4,7 +4,7 @@ import java.util.*;
 public class MyHashTable {
   MyHashTable()
   {
-	  
+	   
   };
   
   public void TestCase1() throws ParseException

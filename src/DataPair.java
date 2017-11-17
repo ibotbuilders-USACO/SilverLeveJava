@@ -3,7 +3,7 @@ public class DataPair implements Comparable<DataPair>{
 	private int start;
 	private int end;
 	
-	//constructor
+	//constructor 
 	DataPair()
 	{
 		start = 0;
